@@ -95,5 +95,41 @@ input:focus {
 }
 input.error {
     outline: none;
-    border: 1px solid red;
+    border: 1px solid darkred;
 }
+
+.pass-error {
+    color: darkred;
+    font-size: 10px;
+}
+
+button {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: #596D48;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 5px 20px 0px rgba(0, 0, 0, 0.3);
+    margin: 20px 50px;
+}
+button:hover {
+    background-color: rgb(107, 129, 89);
+}
+
+.form-section .log-in {
+    color: rgba(0, 0, 0, 0.8);
+    padding: 0;
+    font-size: 11px;
+    margin-left: 50px;
+}
+.form-section .log-in a {
+    text-decoration: none;
+    color: #596D48;
+}
+.form-section .log-in a:hover {
+    text-decoration: underline;
+}
+
+
