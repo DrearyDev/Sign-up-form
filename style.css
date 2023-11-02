@@ -8,10 +8,15 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 
     background-color: #f7f7f7;
+    overflow: hidden;
+}
+
+.space {
+    height: 10vh;
 }
 
 @font-face {
