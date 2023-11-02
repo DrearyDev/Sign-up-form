@@ -72,6 +72,9 @@ body {
     flex-direction: column;
     align-items: flex-start;
 }
+.form-section .wrapper > p {
+    padding-right: 520px;
+}
 .form-section .wrapper form {
     width: 100%;
     background-color: #fff;
