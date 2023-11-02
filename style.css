@@ -59,26 +59,20 @@ body {
 .form-section {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 .form-section p {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 27px;
+    font-size: 1.8rem;
     font-weight: 500;
     margin-bottom: 20px;
-    padding: 0 50px;
+    padding: 20px 50px;
 }
-.form-section .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
+.header-text {
+    width: 70%;
 }
-.form-section .wrapper > p {
-    width: 67%;
-    /* padding-right: 520px; */
-}
-.form-section .wrapper form {
+.form-section form {
     width: 100%;
     background-color: #fff;
     display: flex;
@@ -87,20 +81,20 @@ body {
     margin-top: 50px;
     padding: 50px;
 }
-.form-section .wrapper form p {
+.form-section form p {
     color: rgba(0, 0, 0, 0.8);
     padding: 0;
 }
-.form-section .wrapper form .inputs {
+.form-section form .inputs {
     display: flex;
     gap: 50px;
 }
-.form-section .wrapper form .inputs ul {
+.form-section form .inputs ul {
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
-.form-section .wrapper form .inputs ul li {
+.form-section form .inputs ul li {
     list-style: none;
     display: flex;
     flex-direction: column;
@@ -132,7 +126,7 @@ input.error {
 
 .pass-error {
     color: darkred;
-    font-size: 10px;
+    font-size: 0.5rem;
 }
 
 button {
@@ -150,16 +144,16 @@ button:hover {
     background-color: rgb(107, 129, 89);
 }
 
-.form-section .log-in {
+.link .log-in {
     color: rgba(0, 0, 0, 0.8);
     padding: 0;
     font-size: 11px;
     margin-left: 50px;
 }
-.form-section .log-in a {
+.link .log-in a {
     text-decoration: none;
     color: #596D48;
 }
-.form-section .log-in a:hover {
+.link .log-in a:hover {
     text-decoration: underline;
 }
