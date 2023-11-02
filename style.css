@@ -20,8 +20,9 @@ body {
 }
 
 .img-section {
-    width: 50%;
+    width: 30%;
     height: 100%;
+    flex-shrink: 0;
 
     background-image: url(/img/halie-west-25xggax4bSA-unsplash.jpg);
     background-repeat: no-repeat;
@@ -40,6 +41,7 @@ body {
 
     position: absolute;
     top: 15%;
+    overflow: hidden;
 }
 .overlay img {
     width: 110px;
@@ -73,7 +75,8 @@ body {
     align-items: flex-start;
 }
 .form-section .wrapper > p {
-    padding-right: 520px;
+    width: 67%;
+    /* padding-right: 520px; */
 }
 .form-section .wrapper form {
     width: 100%;
@@ -160,5 +163,3 @@ button:hover {
 .form-section .log-in a:hover {
     text-decoration: underline;
 }
-
-
