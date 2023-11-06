@@ -21,7 +21,7 @@ body {
 
 @font-face {
     font-family: Norse-Bold;
-    src: url(../fonts/Norse-Bold.otf);
+    src: url("../fonts/Norse-Bold.otf");
 }
 
 .img-section {
@@ -29,7 +29,7 @@ body {
     height: 100%;
     flex-shrink: 0;
 
-    background-image: url(../img/halie-west-25xggax4bSA-unsplash.jpg);
+    background-image: url("../img/halie-west-25xggax4bSA-unsplash.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 
